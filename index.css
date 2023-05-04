@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 300;
+  background-image: radial-gradient(circle, rgba(197,212,255,1) 28%, rgba(255,255,255,1) 50%);    margin: auto;
+}
+
+.text-container {
+display: flex; 
+background-color: rgb(205, 230, 250);
+}
+.text {
+flex: 1; 
+}
+
+h1 {
+font-size: 60px;
+margin-left: 25px;
+vertical-align: top;
+text-align: center;
+font-family: Alegreya Sans SC;
+}
+
+h2 {
+  text-align: center;
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 30px;
+  font-family: Alegreya Sans SC;
+  margin-top: -30px;
+}
+
+p {
+text-align: center;
+margin: 0 auto;
+max-width: 1100px;
+font-size: 20px;
+font-family: Alegreya Sans SC;
+margin-top: -20px;
+}
+
+.Sol {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-left: 55%;
+}
+
+.Info {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  margin-left: 35%;
+}
+
+.link-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.link-container a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* You can adjust the top and left values to position the links where you want */
+}
+
+.damage {
+text-align: center;
+width: 50%;
+height: 50%;
+}
+
+
+ul{
+  text-align: center;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 120%;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header { 
+  background: rgb(145, 160, 228);
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.1);
+}
+
+title {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  text-align: center;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo { 
+  float: left;
+  padding: 10px 0;
+  width: 75px;
+  height: 75px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 25px;
+  font-family: 'Alegreya Sans SC', sans-serif; 
+  font-weight: 600; /* make the font thicker */
+  color: #444; /* dark grey text color */
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* Add styles for the utilities section */
+.utilities {
+  position: relative;
+}
+
+.utilities a {
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.utilities a:hover {
+  color: #000;
+}
+
+.utilities ul {
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.utilities ul li {
+  display: block;
+  color: #444;
+
+}
